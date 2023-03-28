@@ -3,7 +3,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-data = pd.read_csv("survey.csv")
+data = pd.read_csv("data/survey.csv")
 nice_data = data[
     data["Interviewer's comments"].str.contains('nice')
     | data["Interviewer's comments"].str.contains('Nice')
