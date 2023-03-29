@@ -4,5 +4,12 @@ To run this analysis, you'll need Numpy and Matplotlib.
 
   bash bin/run_analysis.sh
 
+Jupyter notebook script is under scripts/, which produces images for Prof. Nuss's research.
+run following command to reproduce the result.
+  
+  OUTDIR="../" jupyter nbconvert --to notebook --execute scripts/maizeexports.ipynb
+
+Then see scripts/maizeexports.nbconvert.ipynb
+
 Replace `secret_key.dat` with your own secret key to be able to run
 on your cloud account.
