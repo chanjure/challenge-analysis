@@ -4,6 +4,8 @@ To run this analysis, you'll need Numpy and Matplotlib.
 
   bash bin/run_analysis.sh
 
+This will download data/survey.csv automatically. You need an internet connection.
+
 Jupyter notebook script is under scripts/, which produces images for Prof. Nuss's research.
 run following command to reproduce the result.
   
@@ -13,3 +15,5 @@ Then see scripts/maizeexports.nbconvert.ipynb
 
 Replace `secret_key.dat` with your own secret key to be able to run
 on your cloud account.
+
+
