@@ -16,4 +16,6 @@ Then see scripts/maizeexports.nbconvert.ipynb
 Replace `secret_key.dat` with your own secret key to be able to run
 on your cloud account.
 
+[![DOI](https://sandbox.zenodo.org/badge/620317671.svg)](https://sandbox.zenodo.org/badge/latestdoi/620317671)
+
 
